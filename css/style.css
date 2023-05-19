@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v15/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilntA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4E.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  background-color: hsl(212.31, 44.83%, 88.63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+  min-height: 100%;
+}
+body .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 20px;
+}
+body .wrapper img {
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+body .wrapper .text {
+  padding: 0 10px 30px;
+}
+body .wrapper .text h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+}
+body .wrapper .text p {
+  color: hsl(220, 15%, 55%);
+  font-size: 1em;
+  font-weight: 400;
+}
+body .attribution {
+  position: absolute;
+  bottom: 0;
+}
